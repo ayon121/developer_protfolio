@@ -199,7 +199,30 @@ main {
 /* footer section */
 footer {
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.social-icons a {
+    margin: 24px;
+}
+
+.contact-form input[type="text"] ,input[type="email"] ,textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    width: 100%;
+
 }
