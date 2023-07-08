@@ -95,7 +95,7 @@ nav a {
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 80px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -106,10 +106,31 @@ nav a {
 
 
 /* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* about section styles */
 .about {
     padding: 200px 150px 200px 150px;
     border-radius: 10px;
     background-color: #fae8db;
     margin: 130px 0px;
 }
-/* about section styles */
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+} 
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
